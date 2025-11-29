@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 12px; width: 320px; }
+    #trace { display: none; background:#eee; white-space:pre-wrap; padding:10px; border-radius:6px; }
+    button { margin-top:10px; padding:6px; width: 100%; }
+    input { width:100%; padding:8px; margin-top: 8px; }
+  </style>
+</head>
+<body>
+
+  <h2>AI Agent</h2>
+  <input id="query" placeholder="Type your query...">
+  <button id="run">Run Agent</button>
+
+  <h3>Result:</h3>
+  <pre id="output"></pre>
+
+  <button id="toggleTrace">Show Trace</button>
+  <div id="trace"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

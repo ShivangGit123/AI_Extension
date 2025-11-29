@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Reasoning AI Agent",
+  "version": "1.0",
+  "description": "Local reasoning agent using semantic + keyword search.",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
